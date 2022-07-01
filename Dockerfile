@@ -17,6 +17,7 @@ RUN npm i
 ENV APP_NAME google-bot
 ENV APP_PORT 5665
 ENV APP_HOST localhost
+ENV APP_SCHEMA http
 
 # Copy app source to work directory
 COPY . /usr/src/app
